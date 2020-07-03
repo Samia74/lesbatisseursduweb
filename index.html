@@ -1,83 +1,154 @@
 <!doctype html>
 <html lang="fr">
-            <head>
-                <!-- Required meta tags -->
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-                <!-- Bootstrap CSS -->
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Les Batisseurs du web|Accueil</title>
+  </head>
+ 
+<header>
+  <nav id="nav-head"class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="#">Les bâtisseurs du web</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarsExample03">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="actualite.html">Actualités</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="contact.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tickets</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown03">
+            <a class="dropdown-item" href="tickets.html">Tickets résolus</a>
+            <a class="dropdown-item" href="tickets.html">Tickets en cours</a>
+            <a class="dropdown-item" href="tickets.html">Poster un ticket</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-md-0">
+        <input class="form-control" type="text" placeholder="Search">
+      </form>
+    </div>
+  </nav>
 
-                <link rel="stylesheet" href="style.css">
-
-                <title>Bâtisseur du web| Home</title>
-            </head>
-                    <body>
-                           <header>
-                            <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-                            <h5 class="my-0 mr-md-auto font-weight-normal"> <img id="logo" src="img logo\BDW-Logo.png" alt=""> Les Batisseur du web</h5>
-                                    <nav class="my-2 my-md-0 mr-md-3">
-                                      <a class="p-2 text-dark" href="index.html">Accueil</a>
-                                      <a class="p-2 text-dark" href="apropos.html">A propos</a>
-                                      <a class="p-2 text-dark" href="tickets.html">Tickets</a>
-                                      <a class="p-2 text-dark" href="actualite.html">Actualités</a>
-                                      <a class="p-2 text-dark" href="contact.html">Contact</a>
-                                    </nav>
-                                    <a class="btn btn-outline-primary" href="#">Connexion</a>
-                                  </div>
-
-                                   
-                          <!--Carroussel actus-->
-                          <div id="taille-car">
-                          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="img\laptop-3087585_1920.jpg" class="d-block w-100" alt="women pc">
-                                <div class="carousel-caption d-none d-md-block">
-                                  <h5>Challenge code!</h5>
-                                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="img\artificial-intelligence-4560230_1920.jpg" class="d-block w-100" alt="cerveau digital">
-                                <div class="carousel-caption d-none d-md-block">
-                                  <h5>Meetup special IA</h5>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="img\computer-768608_1920.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                  <h5>Elles sont au top!</h5>
-                                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                </div>
-                              </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Next</span>
-                            </a>
-                          </div>
-                        </div> <!--fin carrousel-->
-                           </header> <!--fin header-->
-
-                           <body>
-                             
-                          
+</header>
+<body>
 
 
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+<h1 class="display-4">Les bâtisseurs du Web</h1>
+<p class="lead">Communauté participative de développers web, de passionnés et d'amateurs. Rejoignez-nous !</p>
+</div>
+
+<div class="container">
+<div class="card-deck mb-3 text-center">
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Membres</h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title pricing-card-title">10€ <small class="text-muted">/an</small></h1>
+      <ul class="list-unstyled mt-3 mb-4">
+        <li>5 Tickets/an</li>
+        <li>Accès aux tutoriels</li>
+        <li>Suivi des tickets par email</li>
+        <li>Newsletters</li>
+      </ul>
+      <button type="button" class="btn btn-lg btn-block btn-outline-primary">connexion</button>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Membres Team</h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title pricing-card-title">5€ <small class="text-muted">/an</small></h1>
+      <ul class="list-unstyled mt-3 mb-4">
+        <li>Tickets offerts</li>
+        <li>Accès aux tutoriels</li>
+        <li>Accès forum privé</li>
+        <li>Challenges Team</li>
+      </ul>
+      <button type="button" class="btn btn-lg btn-block btn-primary">connexion</button>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Entreprises</h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title pricing-card-title">Offert<small class="text-muted"></small></h1>
+      <ul class="list-unstyled mt-3 mb-4">
+        <li>10 tickets/an offert</li>
+        <li>Participez aux challenges</li>
+        <li>Newsletters</li>
+        <li>Trouvez votre expert</li>
+      </ul>
+      <a href="contact.html"><button type="button" class="btn btn-lg btn-block btn-primary">Contactez-nous</button></a>
+    </div>
+  </div>
+</div>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h4 class="display-4">Pas encore de compte ?</h4>
+  <p class="lead">Inscrivez-vous pour bénéficier de toutes les fonctionnalités !</p>
+  <p> <a href="contact.html"><button type="button" class="btn btn-danger "> Devenir membre</button></a></p>
+  </div>
+
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+  <div class="row">
+    <div class="col-12 col-md">
+      <img class="mb-2" src="img logo\BDW-Logo.png" alt="logo" width="30" height="30">
+      <small class="d-block mb-3 text-muted">&copy;Les bâtisseurs du web 2020</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Les bâtisseurs du web</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Accueil</a></li>
+        <li><a class="text-muted" href="actualite.html">Actualités</a></li>
+        <li><a class="text-muted" href="#">Deposer un ticket</a></li>
+        <li><a class="text-muted" href="#">Forum developers</a></li>
+        <li><a class="text-muted" href="apropos.html">A propos</a></li>
+        <li><a class="text-muted" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Ressources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Tutoriels</a></li>
+        <li><a class="text-muted" href="#">Newsletters</a></li>
+        <li><a class="text-muted" href="tickets.html">Tickets</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>A propos</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Team</a></li>
+        <li><a class="text-muted" href="#">Projets web</a></li>
+        <li><a class="text-muted" href="#">CGV</a></li>
+        <li><a class="text-muted" href="#">CGU</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</footer>
 
 
-                        </body>
+       
+
+
 
 
 
