@@ -61,3 +61,43 @@ html {
 .card-title { /*titre des cartes*/
   font-weight: bold;
 }
+
+
+
+/*grid + collapse*/
+
+.themed-grid-col {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+
+.themed-container {
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: rgba(0, 123, 255, .15);
+  border: 1px solid rgba(0, 123, 255, .2);
+}
+
+
+.avatar {
+  width: 3em;
+  height: auto;    
+ }
+
+ .bloc-id {
+      display: block;
+      text-align: center
+ }
+ #col-size {
+  text-align: justify;
+ }
+ .accordion {
+     display: flex;
+ }
+
+.answer {
+  text-align: justify;
+}
+
