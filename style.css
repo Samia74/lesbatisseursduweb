@@ -48,20 +48,23 @@ html {
     margin: 0.3em;
   }
 
-  #navbars-website {
+  #navbars-website { /*espacement link navbar pour ne pas que les liens soient collés au logo*/
     margin-left: 1.2em;
     margin-bottom: 0.3em;
   }
 
-  #navbars-website a {
+  #navbars-website a { /* navbar agrandissement des lettres*/
     font-size: 1.1em;
   }
   
-  #navbars-website a:hover {
+  #navbars-website a:hover { /*effet survol des liens navbar avec effet transition*/ 
     color:#0069D9;
     transition: color .3s;
   }
-  
+
+
+
+   
 
 
   /*---------------style actualités card --------------*/
@@ -79,7 +82,7 @@ html {
 
 
 
-/*grid + collapse*/
+/*-------------------grid + collapse----------------------------*/
 
 .themed-grid-col {
   padding-top: 15px;
@@ -96,15 +99,18 @@ html {
 }
 
 
+/*----------------------------- Tickets clos-------- */
 .avatar { /*configuration de la taille des avatars (tickets)*/
   width: 3em;
-  height: auto;    
+  height: auto;
+  padding-top: 2em;    
  }
 
- .bloc-id {
+ .bloc-id { /* bloc tickets avatar+texte */
       display: block;
-      text-align: center
+      text-align: center;
  }
+
  #col-size {
   text-align: justify;
  }
