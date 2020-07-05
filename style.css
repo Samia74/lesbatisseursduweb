@@ -2,11 +2,13 @@ html {
     box-sizing: border-box;
     font-size: 14px;
   }
+
   @media (min-width: 768px) {
     html {
       font-size: 16px;
     }
   }
+
   .container {
     max-width: 960px;
   }
@@ -39,19 +41,32 @@ html {
   body {
     padding-bottom: 20px;
   }
-  
-  .navbar {
-   
-    margin-bottom: 20px;
-  }
-  
-  #nav-head {
-    padding: 30px;
-    
+
+  #logo-site {  /*image du logo dans le head petit marge autour du logo pour ne pas coller le nom du site*/
+    width: 2em;
+    height: 2em;
+    margin: 0.3em;
   }
 
+  #navbars-website {
+    margin-left: 1.2em;
+    margin-bottom: 0.3em;
+  }
 
-  /*style actualités car*/
+  #navbars-website a {
+    font-size: 1.1em;
+  }
+  
+  #navbars-website a:hover {
+    color:#0069D9;
+    transition: color .3s;
+  }
+  
+
+
+  /*---------------style actualités card --------------*/
+
+  /*responsvité*/
   @media (min-width: 576px) {
     .card-columns {
         column-count: 2;
@@ -81,7 +96,7 @@ html {
 }
 
 
-.avatar {
+.avatar { /*configuration de la taille des avatars (tickets)*/
   width: 3em;
   height: auto;    
  }
