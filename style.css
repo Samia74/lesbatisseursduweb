@@ -1,6 +1,8 @@
 html {
     box-sizing: border-box;
     font-size: 14px;
+    margin: 0;
+    padding: 0;
   }
 
   @media (min-width: 768px) {
@@ -122,3 +124,9 @@ html {
   text-align: justify;
 }
 
+/*lien connexion accueil*/
+.conexion a {
+  text-decoration: none;
+}
+
+/*-----------------------------style de page connexion------------------------------*/
