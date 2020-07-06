@@ -5,10 +5,6 @@ html {
     padding: 0;
   }
 
-  #nav-head { /*couleur background header*/
-    background-color: #5153a8;
-  }
-
   @media (min-width: 768px) {
     html {
       font-size: 16px;
@@ -67,11 +63,12 @@ html {
   
   #navbars-website a:hover { /*effet survol des liens navbar avec effet transition*/ 
     color:#ee9c04;
-    border: 1px solid white;
     transition: color .3s;
   }
 
-
+  #navbars-website a {
+    color: black;
+  }
 
    
 
