@@ -150,3 +150,8 @@ label {
     display: block;
     margin-bottom: 10px;
 }
+
+
+fieldset {
+  border: 1px solid blueviolet;
+}
