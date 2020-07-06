@@ -5,6 +5,10 @@ html {
     padding: 0;
   }
 
+  #nav-head { /*couleur background header*/
+    background-color: #5153a8;
+  }
+
   @media (min-width: 768px) {
     html {
       font-size: 16px;
@@ -17,6 +21,7 @@ html {
   
   .pricing-header {
     max-width: 700px;
+  
   }
   
   .card-deck .card {
@@ -55,12 +60,14 @@ html {
     margin-bottom: 0.3em;
   }
 
-  #navbars-website a { /* navbar agrandissement des lettres*/
+  #navbars-website a { /* navbar agrandissement des lettres avec color white*/
     font-size: 1.1em;
+    color: white;
   }
   
   #navbars-website a:hover { /*effet survol des liens navbar avec effet transition*/ 
-    color:#0069D9;
+    color:#ee9c04;
+    border: 1px solid white;
     transition: color .3s;
   }
 
