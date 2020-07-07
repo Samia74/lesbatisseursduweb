@@ -17,6 +17,7 @@ html {
   
   .pricing-header {
     max-width: 700px;
+      
   
   }
   
@@ -56,21 +57,16 @@ html {
     margin-bottom: 0.3em;
   }
 
-  #navbars-website a { /* navbar agrandissement des lettres avec color white*/
+  #navbars-website a { /* navbar agrandissement des lettres avec color black*/
     font-size: 1.1em;
-    color: white;
+    color: black;
   }
   
   #navbars-website a:hover { /*effet survol des liens navbar avec effet transition*/ 
-    color:#ee9c04;
+    color:#ff2104;
     transition: color .3s;
   }
 
-  #navbars-website a {
-    color: black;
-  }
-
-   
 
 
   /*---------------style actualités card --------------*/
