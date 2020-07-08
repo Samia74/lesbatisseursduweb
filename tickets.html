@@ -10,182 +10,182 @@
     <title>Tickets en attente</title>
   </head>
  
-  <header class="sticky-top shadow-sm mb-5 bg-white rounded">
-    <nav id="nav-head"class="navbar navbar-expand-sm navbar-light text-dark bg-light">
-      <a class="navbar-brand" href="index.html"><img id="logo-site" src="img logo\Logobrblc-car.png" alt="logo"/>Bâtisseurs du web</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-website" aria-controls="navbars-website" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbars-website">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="apropos.html">A-propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="actualite.html">Actualités</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li id="tickets-nav" class="nav-item dropdown">
-            <a  class="nav-link dropdown-toggle" href="contact.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tickets</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown03">
-              <a class="dropdown-item" href="tickets-clos.html">Tickets résolus</a>
-              <a class="dropdown-item" href="tickets.html">Tickets en cours</a>
-              <a class="dropdown-item" href="depot-ticket.html">Poster un ticket</a>
-            </div>
-          </li>
-        </ul>
-        <a href="connexion.html"> <button type="button" class="btn btn-outline-danger mr-3">Connexion</button></a>
-        <form class="form-inline my-2 my-md-0">
-          <input class="form-control" type="text" placeholder="Search">
-        </form>
-      </div>
-    </nav>
-  </header>
+      <header class="sticky-top shadow-sm mb-5 bg-white rounded">
+        <nav id="nav-head"class="navbar navbar-expand-sm navbar-light text-dark bg-light">
+          <a class="navbar-brand" href="index.html"><img id="logo-site" src="img logo\Logobrblc-car.png" alt="logo"/>Bâtisseurs du web</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-website" aria-controls="navbars-website" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+            <div class="collapse navbar-collapse" id="navbars-website">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="apropos.html">A-propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="actualite.html">Actualités</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li id="tickets-nav" class="nav-item dropdown">
+                <a  class="nav-link dropdown-toggle" href="contact.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tickets</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown03">
+                  <a class="dropdown-item" href="tickets-clos.html">Tickets résolus</a>
+                  <a class="dropdown-item" href="tickets.html">Tickets en cours</a>
+                  <a class="dropdown-item" href="depot-ticket.html">Poster un ticket</a>
+                </div>
+              </li>
+            </ul>
+            <a href="connexion.html"> <button type="button" class="btn btn-outline-danger mr-3">Connexion</button></a>
+            <form class="form-inline my-2 my-md-0">
+              <input class="form-control" type="text" placeholder="Search">
+            </form>
+          </div>
+        </nav>
+      </header>
  <!--Fin du header-->
- 
  
  
   <body> <!--mon body debut-->
 
-    <div class="container-fluid">  
+        <div class="container-fluid">  
 
            
-        <section class=" container mt-5" >
-          <h1 class="mb-1 text-danger">Tickets en cours</h1>
-          <h2 class="ml-3 mb-5">Consulter les sujets en attente</h2>
-            <article id="1" class="container">
-            <div class="bloc-id row mb-3">
-                <div class="col-3 col-md-2 themed-grid-col"><img class="avatar" src="img logo\tux-158547_640.png" alt="logo"><br> <strong class="tk-name">Jean</strong> <br> <strong class="rank text-danger">Membre</strong></div>
-                <div id="col-size" class="col-9 col-sm-9  themed-grid-col"> <p>
-                  Bonjour à tous,je débute sur React et j'ai récupéré un projet react sur github que j'ai développé et renvoyé et lorsque la personne essaye de build elle a des erreurs de ce style :
-                  ERROR in ./resources/js/containers/Books.js
-                  Module not found: Error: Can't resolve '../components/FormAddBook' in '/data/www-local/web/lara_sites/react-test/resources/js/containers'
-                  Pourtant de mon côté les chemins d'import sont bons, je fait comme j'ai toujours vu, par exemple :
-                  import FormAddBook from '../components/FormAddBook';
-                  J'ai également regardé dans les config il n'y a rien qui spécifie un chemin de "base".
-                  Merci d'avance pour votre aide
-                    <p>
-                        <a class="btn btn-primary" data-toggle="collapse" href="#membre1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                         Membre
-                        </a>
-                        <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#question1" aria-expanded="false" aria-controls="collapseExample">
-                         Répondre
-                        </button>
-                      </p>
-                      <div class="collapse" id="membre1">
-                        <div class="team card card-body">
-                           <div><p> Decouvrir le membre <strong>Membre Jean</strong>. <br>
-                          <button type="button" class="btn btn-success mt-3">Profil</button></p></div>
-                        </div>
-                      </div>
-                      <div class="collapse" id="question1">
-                        <div class="card card-body">
-                          <label for="story">Votre réponse:</label>
+              <section class=" container mt-5" >
 
-                            <textarea id="story" name="story" 
-                                      rows="5" cols="20">
-                            
-                            </textarea><button type="button" class="btn btn-dark mt-3">Envoyer</button>
-                          
-                        </div>
-                      </div>
-                </div>                      
-            </div> <!--div$$$$$$$$$$$$ FIN id 1 $$$$$$$$$$$$$-->
-            </article>
+                <h1 class="mb-1 text-danger">Tickets en cours</h1>
+                <h2 class="ml-3 mb-5">Consulter les sujets en attente</h2>
 
-            <article id="2" class="container">
-              <div class="bloc-id row mb-3">
-                  <div class="col-3 col-md-2 themed-grid-col"><img class="avatar" src="img logo\robot-2192617_640.png" alt="logo"><br> <strong class="tk-name">Rama</strong> <br> <strong class="rank text-danger">&#11088; <br> Membre-team</strong></div>
-                  <div id="col-size" class="col-9 col-sm-9  themed-grid-col"> <p>
-                    Bonjour tout le monde,
-                    j'ai besoin d'un petit coup de main, je débute en JS.
-                    Lorsque l'utilisateur rentre une lettre au lieu d'un chiffre, il rentre dans la condition if (parseInt(number) != number). Jusque là tout va bien. Je voudrais faire en sorte avant le break qu'il ne prenne pas en compte la lettre qui vient d'être tapée pour ensuite continuer le script et faire l'affichage. Ça doit être très basique mais je bloque depuis hier.
-                    Si l'un d'entre vous a une idée ou un début de piste pour me mettre sur la voie, je suis preneur. Merci d'avance !
-                      <p>
-                          <a class="btn btn-primary" data-toggle="collapse" href="#membre2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                           Membre
-                          </a>
-                          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#question2" aria-expanded="false" aria-controls="collapseExample">
-                           Répondre
-                          </button>
-                        </p>
-                        <div class="collapse" id="membre2">
-                          <div class="team card card-body">
-                             <div><p> Decouvrir le membre <strong>Membre-Team Rama</strong>. <br>
-                            <button type="button" class="btn btn-success mt-3">Profil</button></p></div>
-                          </div>
-                        </div>
-                        <div class="collapse" id="question2">
-                          <div class="card card-body">
-                            <label for="story">Votre réponse:</label>
-  
-                              <textarea id="story" name="story" 
-                                        rows="5" cols="20">
-                              
-                              </textarea><button type="button" class="btn btn-dark mt-3">Envoyer</button>
-                            
-                          </div>
-                        </div>
-                  </div>                      
-              </div> <!--div id 2-->
 
-              
-              </article>
-              <article id="3" class="container">
-                <div class="bloc-id row mb-3">
-                    <div class="col-3 col-md-2 themed-grid-col"><img class="avatar" src="img logo\marguerite-74886_640.jpg" alt="logo"><br> <strong class="tk-name">Annaëlle</strong> <br> <strong class="rank text-danger">Membre</strong></div>
-                    <div id="col-size" class="col-9 col-sm-9  themed-grid-col"> <p>
-                      bonsoir,
-                      je viens vous demandez de l'aide je vous explique mon petit soucis j'ai pour un stage (pour avoir le droit a un second entretien) à faire un petit " site" avec une api sur les renards^^ donc j'ai fais une première page avec deux trois objets et je voulais faire une galerie qui va afficher 10 photos aléatoirement et la c'est le blanc je ne me souviens plus comment cibler avec javascript un élément de chez html pour faire afficher a cette endroit je sais pas si je suis bien clair...
-                        <p>
-                            <a class="btn btn-primary" data-toggle="collapse" href="#membre3" role="button" aria-expanded="false" aria-controls="collapseExample">
-                             Membre
-                            </a>
-                            <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#question3" aria-expanded="false" aria-controls="collapseExample">
-                             Répondre
-                            </button>
-                          </p>
-                          <div class="collapse" id="membre3">
-                            <div class="team card card-body">
-                               <div><p> Decouvrir le membre <strong> Annaëlle</strong>. <br>
-                              <button type="button" class="btn btn-success mt-3">Profil</button></p></div>
+                <article id="1" class="container">
+                  <div class="bloc-id row mb-3">
+                      <div class="col-3 col-md-2 themed-grid-col"><img class="avatar" src="img logo\tux-158547_640.png" alt="logo"><br> <strong class="tk-name">Jean</strong> <br> <strong class="rank text-danger">Membre</strong></div>
+                      <div id="col-size" class="col-9 col-sm-9  themed-grid-col"> <p>
+                        Bonjour à tous,je débute sur React et j'ai récupéré un projet react sur github que j'ai développé et renvoyé et lorsque la personne essaye de build elle a des erreurs de ce style :
+                        ERROR in ./resources/js/containers/Books.js
+                        Module not found: Error: Can't resolve '../components/FormAddBook' in '/data/www-local/web/lara_sites/react-test/resources/js/containers'
+                        Pourtant de mon côté les chemins d'import sont bons, je fait comme j'ai toujours vu, par exemple :
+                        import FormAddBook from '../components/FormAddBook';
+                        J'ai également regardé dans les config il n'y a rien qui spécifie un chemin de "base".
+                        Merci d'avance pour votre aide
+                          <p>
+                              <a class="btn btn-primary" data-toggle="collapse" href="#membre1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              Membre
+                              </a>
+                              <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#question1" aria-expanded="false" aria-controls="collapseExample">
+                              Répondre
+                              </button>
+                            </p>
+                            <div class="collapse" id="membre1">
+                              <div class="team card card-body">
+                                <div><p> Decouvrir le membre <strong>Membre Jean</strong>. <br>
+                                <button type="button" class="btn btn-success mt-3">Profil</button></p></div>
+                              </div>
                             </div>
-                          </div>
-                          <div class="collapse" id="question3">
-                            <div class="card card-body">
-                              <label for="story">Votre réponse:</label>
-    
-                                <textarea id="story" name="story" 
-                                          rows="5" cols="20">
+                            <div class="collapse" id="question1">
+                              <div class="card card-body">
+                                <label for="story">Votre réponse:</label> <!--text à remplir réponse-->
+
+                                  <textarea id="story" name="story" 
+                                   rows="5" cols="20">
+                                  </textarea><button type="button" class="btn btn-dark mt-3">Envoyer</button>
                                 
-                                </textarea><button type="button" class="btn btn-dark mt-3">Envoyer</button>
+                              </div>
                             </div>
-                          </div>
-                    </div>                      
-                </div> <!--div id 2-->
-                </article>
-                </section>
-      </div> <!--container-fluid-->
+                          </div>                      
+                     </div> 
+                  </article> <!-- FIN article div id 1-->
+
+                  <article id="2" class="container">
+                    <div class="bloc-id row mb-3">
+                        <div class="col-3 col-md-2 themed-grid-col"><img class="avatar" src="img logo\robot-2192617_640.png" alt="logo"><br> <strong class="tk-name">Rama</strong> <br> <strong class="rank text-danger">&#11088; <br> Membre-team</strong></div>
+                        <div id="col-size" class="col-9 col-sm-9  themed-grid-col"> <p>
+                          Bonjour tout le monde,
+                          j'ai besoin d'un petit coup de main, je débute en JS.
+                          Lorsque l'utilisateur rentre une lettre au lieu d'un chiffre, il rentre dans la condition if (parseInt(number) != number). Jusque là tout va bien. Je voudrais faire en sorte avant le break qu'il ne prenne pas en compte la lettre qui vient d'être tapée pour ensuite continuer le script et faire l'affichage. Ça doit être très basique mais je bloque depuis hier.
+                          Si l'un d'entre vous a une idée ou un début de piste pour me mettre sur la voie, je suis preneur. Merci d'avance !
+                            <p>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#membre2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Membre
+                                </a>
+                                <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#question2" aria-expanded="false" aria-controls="collapseExample">
+                                Répondre
+                                </button>
+                              </p>
+                              <div class="collapse" id="membre2">
+                                <div class="team card card-body">
+                                  <div><p> Decouvrir le membre <strong>Membre-Team Rama</strong>. <br>
+                                  <button type="button" class="btn btn-success mt-3">Profil</button></p></div>
+                                </div>
+                              </div>
+                              <div class="collapse" id="question2">
+                                <div class="card card-body">
+                                  <label for="story">Votre réponse:</label>
+        
+                                    <textarea id="story" name="story" 
+                                              rows="5" cols="20">
+                                    
+                                    </textarea><button type="button" class="btn btn-dark mt-3">Envoyer</button>
+                                  
+                                </div>
+                              </div>
+                        </div>                      
+                    </div> <!--fin article div id 2-->
+                    </article>
+
+
+                    <article id="3" class="container">
+                      <div class="bloc-id row mb-3">
+                          <div class="col-3 col-md-2 themed-grid-col"><img class="avatar" src="img logo\marguerite-74886_640.jpg" alt="logo"><br> <strong class="tk-name">Annaëlle</strong> <br> <strong class="rank text-danger">Membre</strong></div>
+                          <div id="col-size" class="col-9 col-sm-9  themed-grid-col"> <p>
+                            bonsoir,
+                            je viens vous demandez de l'aide je vous explique mon petit soucis j'ai pour un stage (pour avoir le droit a un second entretien) à faire un petit " site" avec une api sur les renards^^ donc j'ai fais une première page avec deux trois objets et je voulais faire une galerie qui va afficher 10 photos aléatoirement et la c'est le blanc je ne me souviens plus comment cibler avec javascript un élément de chez html pour faire afficher a cette endroit je sais pas si je suis bien clair...
+                              <p>
+                                  <a class="btn btn-primary" data-toggle="collapse" href="#membre3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                  Membre
+                                  </a>
+                                  <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#question3" aria-expanded="false" aria-controls="collapseExample">
+                                  Répondre
+                                  </button>
+                                </p>
+                                <div class="collapse" id="membre3">
+                                  <div class="team card card-body">
+                                    <div><p> Decouvrir le membre <strong> Annaëlle</strong>. <br>
+                                    <button type="button" class="btn btn-success mt-3">Profil</button></p></div>
+                                  </div>
+                                </div>
+                                <div class="collapse" id="question3">
+                                  <div class="card card-body">
+                                    <label for="story">Votre réponse:</label>
+          
+                                      <textarea id="story" name="story" 
+                                       rows="5" cols="20">
+                                      </textarea><button type="button" class="btn btn-dark mt-3">Envoyer</button>
+                                  </div>
+                               </div>
+                          </div>                      
+                        </div> 
+                      </article> <!--fin article div id 3-->
+              </div> <!--container-fluid-->
+    </section>
 
 
 
-
-
+      <!--footer-->
 
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="container">
         <div class="row">
           <div class="col-12 col-md">
           <a href="#"><img class="mr-3 mb-2 mr-2" src="img logo\BDW-Logo.png" alt="logo" width="30" height="30" title="suivez vos tickets sur notre appli mobile"></a> 
+          <a href="#"><img class="mr-3 mb-2 mr-2" src="img logo\linkedin_icon-icons.com_65929.png" alt="logo" width="30" height="30" title="suivez nos offres d'emplois"></a> 
           <a href="#"><img class="mr-3 mb-2 mr-2" src="img logo\youtube.png" alt="logo" width="30" height="30" title="Retrouvez nos lives et nos tutoriels"></a> 
           <a href="#"><img class="mr-3 mb-2 mr-2" src="img logo\facebook.png" alt="logo" width="30" height="30" title="Ne ratez plus nos meetup abonnez-vous à notre page"></a> 
-          <a href="#"><img class="mr-3 mb-2 mr-2" src="img logo\tweet.png" alt="logo" width="30" height="30" title="tweetez nous !">
+          <a href="#"><img class="mr-3 mb-2 mr-2" src="img logo\tweet.png" alt="logo" width="30" height="30" title="tweetez avec nous !">
             <small class="d-block mr-3 mb-3 ml-10 text-muted">&copy;Bâtisseurs du web 2020</small>
           </div>
           <div class="col-6 col-md">
@@ -194,7 +194,7 @@
               <li><a class="text-muted" href="index.html">Accueil</a></li>
               <li><a class="text-muted" href="actualite.html">Actualités</a></li>
               <li><a class="text-muted" href="depot-ticket.html">Deposer un ticket</a></li>
-              <li><a class="text-muted" href="construction.html">Forum developers</a></li>
+              <li><a class="text-muted" href="index.html">Forum developers</a></li>
               <li><a class="text-muted" href="apropos.html">A propos</a></li>
               <li><a class="text-muted" href="contact.html">Contact</a></li>
             </ul>
@@ -202,18 +202,18 @@
           <div class="col-6 col-md">
             <h5>Ressources</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="construction.html">Tutoriels</a></li>
-              <li><a class="text-muted" href="construction.html">Newsletters</a></li>
+              <li><a class="text-muted" href="index.html">Tutoriels</a></li>
+              <li><a class="text-muted" href="index.html">Newsletters</a></li>
               <li><a class="text-muted" href="tickets.html">Tickets</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">
             <h5>A propos</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="construction.html">Team</a></li>
-              <li><a class="text-muted" href="construction.html">Projets web</a></li>
-              <li><a class="text-muted" href="construction.html">CGV</a></li>
-              <li><a class="text-muted" href="construction.html">CGU</a></li>
+              <li><a class="text-muted" href="index.html">Team</a></li>
+              <li><a class="text-muted" href="index.html">Projets web</a></li>
+              <li><a class="text-muted" href="index.html">CGV</a></li>
+              <li><a class="text-muted" href="index.html">CGU</a></li>
             </ul>
           </div>
         </div>

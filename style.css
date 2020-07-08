@@ -17,8 +17,6 @@ html {
   
   .pricing-header {
     max-width: 700px;
-      
-  
   }
   
   .card-deck .card {
@@ -64,7 +62,6 @@ html {
   
   #navbars-website a:hover { /*effet survol des liens navbar avec effet transition*/ 
     color:#ff2104;
-    transition: color .3s;
   }
 
 
