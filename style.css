@@ -65,10 +65,9 @@ html {
   }
 
 
-
   /*---------------style actualités card --------------*/
 
-  /*responsvité*/
+  /*responsivité*/
   @media (min-width: 576px) {
     .card-columns {
         column-count: 2;
@@ -126,6 +125,10 @@ html {
   text-decoration: none;
 }
 
+#number-page a:hover { /*survol barre de navigation tickets*/
+  background: red;
+  color: white;
+}
 
 
 /* ---------textarea formulaire de réponse ticket------------*/
